@@ -1,0 +1,27 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    .footer-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 5px;
+        .footer-icon-container {
+            font-size: 0px;
+            .footer-icon {
+                height: 22px;
+                width: 22px;
+            }
+        }
+        
+        .footer-label-container {
+            font-size: 0px;
+            .footer-label {
+                font-size: 12px;
+            }
+        }
+        
+    }
+
+}

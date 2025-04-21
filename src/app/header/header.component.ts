@@ -7,7 +7,6 @@ import {
   IonContent,
   IonButtons,
   IonMenuButton,
-  IonApp,
 } from '@ionic/angular/standalone';
 
 @Component({

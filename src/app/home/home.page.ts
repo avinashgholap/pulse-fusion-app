@@ -1,19 +1,27 @@
 import { Component } from '@angular/core';
 import {
   IonHeader,
-  IonToolbar,
-  IonTitle,
   IonContent,
-  IonApp,
+  IonFooter,
   IonRouterOutlet,
+  IonToolbar,
 } from '@ionic/angular/standalone';
 import { HeaderComponent } from '../header/header.component';
-
+import { FooterComponent } from '../footer/footer.component';
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
-  imports: [IonContent, HeaderComponent, IonApp],
+  imports: [
+    IonHeader,
+    HeaderComponent,
+    IonRouterOutlet,
+    IonFooter,
+    FooterComponent,
+    IonToolbar,
+    IonToolbar,
+    IonContent,
+  ],
 })
 export class HomePage {
   constructor() {}

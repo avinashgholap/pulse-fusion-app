@@ -1,5 +1,7 @@
 {
   "name": "pulse-fusion-app",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular-standalone"
 }
